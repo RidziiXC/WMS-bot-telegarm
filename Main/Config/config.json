@@ -1,0 +1,20 @@
+{
+    "DATABASE_CONFIG": {
+        "HOST": "localhost",
+        "USER": "root",
+        "PASSWORD": "",
+        "DATABASE": "yourdatabase"
+    },
+    "LOGGING_CONFIG": {
+        "LEVEL": "INFO",
+        "FORMAT": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "DATE_FORMAT": "%Y-%m-%d %H:%M:%S"
+    },
+    "INVENTORY_SETTINGS": {
+        "LOW_STOCK_THRESHOLD": 10,
+        "DEFAULT_REPORT_LIMIT": 100
+    },
+    "ADMIN_SETTINGS": {
+        "SUPER_ADMIN_USER_IDS": []
+    }
+}
